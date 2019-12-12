@@ -1,5 +1,7 @@
 package BID.SWE;
 
+import java.util.Arrays;
+
 public class Exercise3Impl implements Exercise3
 {
 
@@ -10,6 +12,6 @@ public class Exercise3Impl implements Exercise3
 
     @Override
     public Object Method2() {
-        return null;
+        return Arrays.asList(new Springen(), new Laufen());
     }
 }
